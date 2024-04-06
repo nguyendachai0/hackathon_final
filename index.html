@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <title>Portfolio | Nguyễn Đắc Hải</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="logo nav__logo">
+        <a href="#">HAI</a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+          </svg></span>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Giới thiệu</a></li>
+      <li><a href="#project">Dự án</a></li>
+      <li><a href="#motto">Phương châm</a></li>
+      <li><a href="#certificate">Chứng chỉ</a></li>
+      <li><a href="#review">Đánh giá</a></li>
+    </ul>
+    <div class="nav__btn">
+      <button class="btn"><i class="ri-shopping-bag-fill"></i></button>
+    </div>
+  </nav>
+
+  <header class="section__container header__container" id="home">
+    <div class="header__image" id="headerImage">
+      <img src="assets/avatar.png" alt="header" />
+    </div>
+    <div class="header__content" id="headerContent">
+      <h1 id="text"></h1>
+      <p class="section__description">
+        Tôi là một BackEnd Developer với kinh nghiệm rộng trong việc sử dụng Laravel - một framework PHP nổi tiếng cho
+        phát triển ứng dụng web. Mục tiêu ngắn hạn của tôi là làm việc tại môi trường quốc tế, trong khi mục tiêu dài
+        hạn là trở thành một Team Lead và cuối cùng là tự mở công ty công nghệ riêng của mình.
+      </p>
+      <div class="header__btn">
+        <button class="btn">Tải CV</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section__container special__container" id="feature">
+    <h2 class="section__header" id="project">Các dự án gần nhất</h2>
+    <div class="special__grid">
+      <div class="special__card">
+        <img src="assets/project-1 (1).jpg" alt="special" />
+        <h4>Công cụ quản lý công việc tại công ty Apps Cyclone</h4>
+        <p>
+          <li> - Đây là công cụ dùng để phân chia nhân sự, quản lý công việc, thời gian tại công ty Apps Cyclone</li>
+          <li> - Công nghệ sử dụng bao gồm VueJS, Laravel và Mysql.</li>
+          <li> - Số lượng thành viên: 8 thành viên.</li>
+          <li> - Thời gian hoàn thành: 2 tháng</li>
+          <li> - Kết quả đem lại: Khả năng vận hành của công ty Apps Cyclone diễn ra trơn tru hơn, Giảm thiểu lãng phí
+            60%
+            nhân lực.</li>
+        </p>
+
+
+        <div class="special__footer">
+
+          <button class="btn">Khám phá thêm</button>
+        </div>
+      </div>
+      <div class="special__card">
+        <img src="assets/project-2 (1).png" alt="special" />
+        <h4>Web chiếu phim trực tuyến</h4>
+        <p>
+          <li> - Đây là một dự án cá nhân để kiếm thêm thu nhập phụ.</li>
+          <li> - Công nghệ sử dụng bao gồm Bootstrap, Laravel và Mysql.</li>
+          <li> - Số lượng thành viên: 1 thành viên.</li>
+          <li> - Thời gian hoàn thành: 1 tháng</li>
+          <li> - Kết quả đem lại: Một web phim với giao diện bắt mắt thu hút hàng nghìn lượt người dùng mỗi ngày.</li>
+        </p>
+
+        <div class="special__footer">
+
+          <button class="btn">Khám phá thêm</button>
+        </div>
+      </div>
+      <div class="special__card">
+        <img src="assets/feature-3.jpg" alt="special" />
+        <h4>AI VIAI</h4>
+        <p>
+          <li> - Đây là một dự án tạo ra một trợ lý nhân tạo với khả năng tư duy, và nhận diện giọng nói vô cùng chuẩn
+            xác để trả lời mọi câu hỏi hoặc truy cập mọi công nghệ điện tử được kết nối trong nhà .</li>
+          <li> - Công nghệ sử dụng bao gồm Python, TensorFlow và Flask </li>
+          <li> - Số lượng thành viên: 15 thành viên.</li>
+          <li> - Thời gian hoàn thành: 8 tháng</li>
+          <li> - Kết quả đem lại: Tạo ra một trí tuệ nhân tạo vừa là bạn đồng hành đáng tin cậy, giảm thiểu lượng lớn
+            các tác vụ thủ công lặp lại nhắm chán, nâng cao đời sống con người</li>
+        </p>
+
+        <div class="special__footer">
+
+          <button class="btn">Khám phá thêm</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container explore__container">
+    <div class="explore__image">
+      <img src="assets/creative-tech.jpg" alt="khám phá công nghệ" />
+    </div>
+    <div class="explore__content">
+      <h1 class="section__header" id="motto">Phương châm làm việc</h1>
+      <p class="section__description">
+        Hãy làm hôm nay, sống trọn vẹn hết ngày hôm nay, bởi vì cuộc sống là trân quý và không phải ai cũng có cơ hội
+        được làm việc một cách lành lặn.
+      </p>
+      <div class="explore__btn">
+        <button class="btn">
+          Khám Phá Đổi Mới <span><i class="ri-arrow-right-line"></i></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <h1 class="section__header" id="certificate">Các chứng chỉ</h1>
+  <section class="section__container banner__container">
+    <div class="banner__card">
+      <span class="banner__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path
+            d="M97.2 96.2c10.4-10.7 16-17.1 16-21.9 0-2.8-1.9-5.5-3.8-7.4A14.8 14.8 0 0 0 101 64.1c-8.5 0-20.9 8.8-35.8 25.7C23.7 137 2.5 182.8 3.4 250.3s17.5 117 54.1 161.9C76.2 435.9 90.6 448 100.9 448a13.6 13.6 0 0 0 8.4-3.8c1.9-2.8 3.8-5.6 3.8-8.4 0-5.6-3.9-12.2-13.2-20.6-44.5-42.3-67.3-97-67.5-165C32.3 188.8 54 137.8 97.2 96.2zM239.5 420.1c.6 .4 .9 .6 .9 .6zm93.8 .6 .2-.1C333.2 420.6 333.2 420.7 333.3 420.6zm3.1-158.2c-16.2-4.2 50.4-82.9-68.1-177.2 0 0 15.5 49.4-62.8 159.6-74.3 104.4 23.5 168.7 34 175.2-6.7-4.4-47.4-35.7 9.6-128.6 11-18.3 25.5-34.9 43.5-72.2 0 0 15.9 22.5 7.6 71.1C287.7 364 354 342.9 355 343.9c22.8 26.8-17.7 73.5-21.6 76.6 5.5-3.7 117.7-78 33-188.1C360.4 238.4 352.6 266.6 336.4 262.4zM510.9 89.7C496 72.8 483.5 64 475 64a14.8 14.8 0 0 0 -8.4 2.8c-1.9 1.9-3.8 4.7-3.8 7.4 0 4.8 5.6 11.3 16 21.9 43.2 41.6 65 92.6 64.8 154.1-.2 68-23 122.6-67.5 165-9.3 8.4-13.2 14.9-13.2 20.6 0 2.8 1.9 5.6 3.8 8.4A13.6 13.6 0 0 0 475.1 448c10.3 0 24.7-12.1 43.5-35.8 36.6-44.9 53.1-94.4 54.1-161.9S552.3 137 510.9 89.7z" />
+        </svg></span>
+      <h4>Thuật toán, giải thuật, Back-End & APIs cung cấp bởi FreeCodeCamp</h4>
+      <p>
+        Chứng chỉ này tương đương với việc hoàn thành 3000 giờ học tập tư duy logic có liên quan đến thuật toán, cấu
+        trúc dữ liệu và cách sử dụng các API.
+      </p>
+      <a href="#">
+        Tìm Hiểu Thêm
+        <span><i class="ri-arrow-right-line"></i></span>
+      </a>
+    </div>
+
+    <!-- Thẻ card cho Dữ liệu lớn -->
+    <div class="banner__card" id="about">
+      <span class="banner__icon"><svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path
+            d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z" />
+        </svg></span>
+      <h4>Chứng chỉ tiếng Anh - B2 được cấp bởi EF</h4>
+      <p>
+        Về chứng chỉ này tôi đạt 60/90 điểm theo mức đánh giá của hệ thống và được xếp vào trình độ b2.
+      </p>
+      <a href="#">
+        Tìm Hiểu Thêm
+        <span><i class="ri-arrow-right-line"></i></span>
+      </a>
+    </div>
+
+    <!-- Thẻ card cho Cải thiện UX -->
+    <div class="banner__card">
+      <span class="banner__icon"> <svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path
+            d="M180.4 203c-.7 22.7 10.6 32.7 10.9 39.1a8.2 8.2 0 0 1 -4.1 6.3l-12.8 9a10.7 10.7 0 0 1 -5.6 1.9c-.4 0-8.2 1.8-20.5-25.6a78.6 78.6 0 0 1 -62.6 29.5c-16.3 .9-60.4-9.2-58.1-56.2-1.6-38.3 34.1-62.1 70.9-60.1 7.1 0 21.6 .4 47 6.3v-15.6c2.7-26.5-14.7-47-44.8-43.9-2.4 0-19.4-.5-45.8 10.1-7.4 3.4-8.3 2.8-10.8 2.8-7.4 0-4.4-21.5-2.9-24.2 5.2-6.4 35.9-18.4 65.9-18.2a76.9 76.9 0 0 1 55.7 17.3 70.3 70.3 0 0 1 17.7 52.4l0 69.3zM94 235.4c32.4-.5 46.2-20 49.3-30.5 2.5-10.1 2.1-16.4 2.1-27.4-9.7-2.3-23.6-4.9-39.6-4.9-15.2-1.1-42.8 5.6-41.7 32.3-1.2 16.8 11.1 31.4 30 30.5zm170.9 23.1c-7.9 .7-11.5-4.9-12.7-10.4l-49.8-164.7c-1-2.8-1.6-5.7-1.9-8.6a4.6 4.6 0 0 1 3.9-5.3c.2 0-2.1 0 22.3 0 8.8-.9 11.6 6 12.6 10.4l35.7 140.8 33.2-140.8c.5-3.2 2.9-11.1 12.8-10.2h17.2c2.2-.2 11.1-.5 12.7 10.4l33.4 142.6L421 80.1c.5-2.2 2.7-11.4 12.7-10.4h19.7c.9-.1 6.2-.8 5.3 8.6-.4 1.9 3.4-10.7-52.8 169.9-1.2 5.5-4.8 11.1-12.7 10.4h-18.7c-10.9 1.2-12.5-9.7-12.7-10.8L328.7 110.7l-32.8 137c-.2 1.1-1.7 11.9-12.7 10.8h-18.3zm273.5 5.6c-5.9 0-33.9-.3-57.4-12.3a12.8 12.8 0 0 1 -7.8-11.9v-10.8c0-8.5 6.2-6.9 8.8-5.9 10 4.1 16.5 7.1 28.8 9.6 36.7 7.5 52.8-2.3 56.7-4.5 13.2-7.8 14.2-25.7 5.3-35-10.5-8.8-15.5-9.1-53.1-21-4.6-1.3-43.7-13.6-43.8-52.4-.6-28.2 25.1-56.2 69.5-56 12.7 0 46.4 4.1 55.6 15.6 1.4 2.1 2 4.6 1.9 7v10.1c0 4.4-1.6 6.7-4.9 6.7-7.7-.9-21.4-11.2-49.2-10.8-6.9-.4-39.9 .9-38.4 25-.4 19 26.6 26.1 29.7 26.9 36.5 11 48.7 12.8 63.1 29.6 17.1 22.3 7.9 48.3 4.4 55.4-19.1 37.5-68.4 34.4-69.3 34.4zm40.2 104.9c-70 51.7-171.7 79.3-258.5 79.3A469.1 469.1 0 0 1 2.8 327.5c-6.5-5.9-.8-14 7.2-9.5a637.4 637.4 0 0 0 316.9 84.1 630.2 630.2 0 0 0 241.6-49.6c11.8-5 21.8 7.8 10.1 16.4zm29.2-33.3c-9-11.5-59.3-5.4-81.8-2.7-6.8 .8-7.9-5.1-1.8-9.5 40.1-28.2 105.9-20.1 113.4-10.6 7.6 9.5-2.1 75.4-39.6 106.9-5.8 4.9-11.3 2.3-8.7-4.1 8.4-21.3 27.4-68.5 18.4-80z" />
+        </svg>
+      </span>
+      <h4>Chứng chỉ hoàn thành khóa điện toán đám mây trên AWS</h4>
+      <p>
+        Sau khi hoàn thành khóa học này tôi đã có ứng dụng công nghệ điện toán đám mây vào các sản phẩm và nâng giá trị
+        của bản thân trong mắt các nhà tuyển dụng.
+      </p>
+      <a href="#">
+        Tìm Hiểu Thêm
+        <span><i class="ri-arrow-right-line"></i></span>
+      </a>
+    </div>
+  </section>
+  <section class="section__container client__container" id="review">
+    <h2 class="section__header">Đánh giá về bản thân tôi</h2>
+    <p class="section__description">
+      Khám phá cách thức tôi làm việc thông qua các đồng nghiệp, xếp và các đối tác mà tôi đã có cơ hội làm việc cùng.
+    </p>
+    <div class="client__swiper">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper" id="review">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <p>
+                "Cậu ấy là người sáng dạ, luôn đúng giờ và có tinh thần trách nhiệm cao."
+              </p>
+              <img src="assets/client-1.jpg" alt="client" />
+              <h4>David Lee</h4>
+              <h5>Chuyên Gia Công Nghệ tại Paradox</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <p>
+                "Thông thường tôi thường giao deadline trước một tuần so với deadline thật để mọi việc diễn ra suôn sẻ,
+                rất ít người có thể hoàn thành deadline mà tôi đã giao và cậu ta là một trong số đó."
+              </p>
+              <img src="assets/client-2.jpg" alt="client" />
+              <h4>Emily Johnson</h4>
+              <h5>Nhà Phát Triển Phần Mềm tại Apps Cyclone</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <p>
+                "Tôi rất ấn tượng với khả năng phân tích và học hỏi của Hải, trong thời gian làm việc chung, cậu ấy đã
+                giúp tôi tối ưu hóa quy trình làm việc và nâng
+                cao hiệu suất công việc đáng kể."
+              </p>
+              <img src="assets/client-3.jpg" alt="client" />
+              <h4>Michael Thompson</h4>
+              <h5>Quản Lý Dự Án tại LG</h5>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <button id="prevButton" class="btn-prev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+            <path
+              d="M459.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4L288 214.3V256v41.7L459.5 440.6zM256 352V256 128 96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4l-192 160C4.2 237.5 0 246.5 0 256s4.2 18.5 11.5 24.6l192 160c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V352z" />
+          </svg></button>
+        <button id="nextButton" class="btn-next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4L224 214.3V256v41.7L52.5 440.6zM256 352V256 128 96c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4l192 160c7.3 6.1 11.5 15.1 11.5 24.6s-4.2 18.5-11.5 24.6l-192 160c-9.5 7.9-22.8 9.7-34.1 4.4s-18.4-16.6-18.4-29V352z" />
+          </svg></button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo footer__logo">
+          <a href="#">Lời kết</a>
+        </div>
+        <p class="section__description">
+          Nếu bạn thấy ấn tượng với khả năng và kinh nghiệm của tôi, đừng ngần ngại liên lạc bằng các thông tin ở bên.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4>Danh mục</h4>
+        <ul class="footer__links">
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#services">Dự án</a></li>
+          <li><a href="#">Phương châm</a></li>
+          <li><a href="#">Đánh giá</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Liên hệ</h4>
+        <ul class="footer__links">
+          <li><a href="#portfolio"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+              </svg></a></li>
+          <li><a href="#contact"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+              </svg></a></li>
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+              </svg></a></li>
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+              </svg></a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Khám phá thêm</h4>
+        <ul class="footer__links">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Dự án</a></li>
+          <li><a href="#">Dịch vụ</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Bản Quyền © 2024 Nguyễn Đắc Hải. Tất cả quyền được bảo lưu.
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
